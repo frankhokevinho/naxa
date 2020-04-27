@@ -180,7 +180,7 @@ abirsms($ru[2], $txt);
 
 
 
-echo "<br/><br/><a href=\"$_SESSION[xsuccessurl]\" class='btn btn-success btn-block'>BACK TO $_SESSION[xpaytoname]</a>";
+echo "<br/><br/><a href=\"$_SESSION[xsuccessurl]?amount=$amount&paidby=$user&payto=$sendto&custom=$cus&trx=$trx&secret=$recdetails[3]\" class='btn btn-success btn-block'>BACK TO $_SESSION[xpaytoname]</a>";
 
 
 
